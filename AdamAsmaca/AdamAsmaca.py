@@ -20,7 +20,7 @@ def adamAsmaca():
     h6=("  +---+\n  |   |\n  O   |\n /|\  |\n /    |\n      |\n=========")
     h7=("  +---+\n  |   |\n  O   |\n /|\  |\n / \  |\n      |\n=========")
 
-    print(word)
+    
     sayac = 0
     while True:
         print("Kullandığınız kelimeler : ",''.join(usedLetters))
