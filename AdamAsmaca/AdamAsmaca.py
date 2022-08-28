@@ -65,7 +65,7 @@ def adamAsmaca():
                 wordLetters.remove(letterGuess)
                 """
         elif letterGuess in usedLetters:
-            print("Bu kelimeyi zaten kullandınız")
+            print(f"Oyunu kaybettiniz :( Kelime {upperWord} idi")
             sayac+=1
         else:
             sayac+=1
